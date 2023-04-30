@@ -1,7 +1,7 @@
 ﻿    double nota1, nota2, nota3, nota4, media;
     string resultado;
     //oq acontece se os dois or forem falso
-    Console.WriteLine("---------Média---------");
+    Console.WriteLine("----------Média----------");
     Console.WriteLine("Digite 4 notas de 0 a 10");
 
     Console.WriteLine("Primeira nota: ");
@@ -21,7 +21,7 @@
                            && nota3 >= 0 && nota3 <= 10
                            && nota4 >= 0 && nota4 <= 10;
 
-    //Laço para gerar as operações caso todas as notas sejam validas
+    //Condicional para gerar as operações caso todas as notas sejam validas
     if (allMentionValid) 
     {
         media = (nota1 + nota2 + nota3 + nota4) / 4;
